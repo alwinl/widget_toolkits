@@ -28,10 +28,6 @@ add_executable(
 	gtk_demo
 
 	gtk_demo.cc
-	model.cc
-	vertex.cc
-	controller.cc
-	view.cc
 )
 
 target_include_directories( gtk_demo PRIVATE ${GTKMM_INCLUDE_DIRS})
