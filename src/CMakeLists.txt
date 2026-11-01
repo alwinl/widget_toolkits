@@ -32,3 +32,12 @@ add_executable(
 
 target_include_directories( gtk_demo PRIVATE ${GTKMM_INCLUDE_DIRS})
 target_link_libraries(gtk_demo PRIVATE shader_utils ${GTKMM_LIBRARIES} ${OPENGL_LIBRARIES} )
+
+add_executable(
+	gtk_demo2
+
+	gtk_demo2.cc
+)
+
+target_include_directories( gtk_demo2 PRIVATE ${GTKMM_INCLUDE_DIRS})
+target_link_libraries(gtk_demo2 PRIVATE shader_utils ${GTKMM_LIBRARIES} ${OPENGL_LIBRARIES} )
